@@ -28,7 +28,7 @@ public class Week1Task10 {
             num1 = cub(num1);
         } else {
 
-            num1 = num1 * 0;
+            num1 = 0;
         }
 
         if (num2 > 0) {
@@ -36,7 +36,7 @@ public class Week1Task10 {
             num2 = cub(num2);
         } else {
 
-            num2 = num2 * 0;
+            num2 = 0;
         }
 
         if (num3 > 0) {
@@ -44,7 +44,7 @@ public class Week1Task10 {
             num3 = cub(num3);
         } else {
 
-            num3 = num3 * 0;
+            num3 = 0;
         }
 
         System.out.println("The first number - " + num1 + "\nThe second number - " + num2 + "\nThe third number - " + num3);
