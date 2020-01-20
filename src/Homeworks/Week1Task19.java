@@ -1,6 +1,5 @@
 package Homeworks;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Week1Task19 {
@@ -16,14 +15,6 @@ public class Week1Task19 {
         if (!(number > 1 && number < 99)) {
 
             System.out.println("Enter the number from 1 to 99 please!");
-        } else
-
-            if ((number == 1) && ((number%10) == 1)) {
-
-                System.out.println(number + "ка");
-            }
-
-            }
-
+        }
     }
 }
